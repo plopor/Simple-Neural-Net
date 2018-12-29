@@ -59,6 +59,7 @@ for x in range(iteration):
 print ("New synapse weights after training:")
 print (synapseWeights)
 
+#given the new weights, the correct number from the list can be selected
 print ("Comparison after training:")
 print (makeOut (guess (synapseWeights), trainingIn))
 print ("vs.")
